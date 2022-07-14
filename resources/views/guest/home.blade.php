@@ -9,6 +9,6 @@
     <title>BoolPress</title>
 </head>
 <body>
-    <h1>BoolPress</h1>
+    <div id="app"></div>
 </body>
 </html>
