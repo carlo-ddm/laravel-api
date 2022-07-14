@@ -10,6 +10,31 @@ aggiungere i chackbox dei tag nel form dell’edid (gestire l’old()  e l’eve
 in update gestire la presenza del dato e sincronizzare la tabella ponte
 cosa fare in destroy? --}}
 
+{{-- Clonare la repo  laravel-many-to-many., eliminare la cartella .git e rinominarla laravel-api.
+Continuare quindi sullo stesso progetto seguendo la seguente todo-list:
+
+creare una API che generi un json contenente tutti i post
+
+separare gli scss fra admin e post in relative cartelle
+
+aggiornare di conseguenza i percorsi in webpack.mix e nelle view
+
+separate i js in front e admin
+aggiornare di conseguenza i percorsi in webpack.mix e nelle view
+togliere la polvere da Vue :linguaccia_occhiolino:
+creare un componente App.vue
+innestare App.vue in vue
+importare axios globalmente in front.js
+da App.vue fare una chiamata axios all’API dei post
+stampare in pagina tutti i post con v-for
+
+formula per iniettare App.vue in #app  (prima bisogna importare il componente…)
+
+const app = new Vue({
+    el: '#app',
+    render: h => h(App)
+}); --}}
+
 @extends('layouts.app')
 
 @section('content')

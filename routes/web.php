@@ -27,7 +27,7 @@ use Illuminate\Support\Facades\Route;
 // 'home' è pagina 'admin'. Rinominata in questo modo
 
 Route::get('/', function () {
-    return view('guest.welcome');
+    return view('guest.home');
 })->name('home');
 
 Auth::routes();
