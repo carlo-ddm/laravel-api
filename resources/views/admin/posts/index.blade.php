@@ -24,8 +24,11 @@ separate i js in front e admin
 aggiornare di conseguenza i percorsi in webpack.mix e nelle view
 
 togliere la polvere da Vue :linguaccia_occhiolino:
+
 creare un componente App.vue
+
 innestare App.vue in vue
+
 importare axios globalmente in front.js
 da App.vue fare una chiamata axios all’API dei post
 stampare in pagina tutti i post con v-for

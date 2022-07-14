@@ -10,6 +10,6 @@ class PageController extends Controller
 {
     public function index(){
         $post = Post::all();
-        return response()->json(compact('post'));
+        return response()->json($post);
     }
 }

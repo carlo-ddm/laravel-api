@@ -1,4 +1,12 @@
 body {
   background-color: cadetblue;
+  color: lightcyan;
+}
+
+.container {
+  width: 80%;
+  maxwidth: 1000px;
+  padding: 30px;
+  margin: 0 auto;
 }
 
