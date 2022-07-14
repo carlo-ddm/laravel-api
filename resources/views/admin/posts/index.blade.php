@@ -17,7 +17,7 @@ creare una API che generi un json contenente tutti i post
 
 separare gli scss fra admin e post in relative cartelle
 
-aggiornare di conseguenza i percorsi in webpack.mix e nelle view
+aggiornare di conseguenza i percorsi in webpack.mix e nelle view.
 
 separate i js in front e admin
 aggiornare di conseguenza i percorsi in webpack.mix e nelle view
