@@ -20,6 +20,7 @@ separare gli scss fra admin e post in relative cartelle
 aggiornare di conseguenza i percorsi in webpack.mix e nelle view.
 
 separate i js in front e admin
+
 aggiornare di conseguenza i percorsi in webpack.mix e nelle view
 togliere la polvere da Vue :linguaccia_occhiolino:
 creare un componente App.vue
